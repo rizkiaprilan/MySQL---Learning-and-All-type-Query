@@ -1,0 +1,29 @@
+--SIMULATION TRANSACTION
+
+INSERT INTO Header_Sales_Transaction VALUES
+	('SA026','ST003','2018/05/18'),
+	('SA027','ST007','2018/09/19'),
+	('SA028','ST003','2017/02/02'),
+	('SA029','ST007','2018/01/28'),
+	('SA030','ST007','2018/05/19')
+
+INSERT INTO Detail_Sales_Transaction VALUES
+	('SA026','IT014',10),
+	('SA027','IT015',5),
+	('SA028','IT021',1),
+	('SA029','IT023',25),
+	('SA030','IT027',1)
+
+INSERT INTO Header_Purchases_Transaction VALUES
+	('PU026','ST010','2018/04/08'),
+	('PU027','ST007','2018/04/08'),
+	('PU028','ST004','2018/04/08'),
+	('PU029','ST001','2018/04/08'),
+	('PU030','ST010','2018/04/08')
+	
+INSERT INTO Detail_Purchases_Transaction VALUES
+	('PU026','IT014',5),
+	('PU027','IT023',20),
+	('PU028','IT021',4),
+	('PU029','IT022',4),
+	('PU030','IT018',8)
